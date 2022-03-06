@@ -2,7 +2,7 @@
 
 buildPythonPackage rec {
   pname = "rosdep";
-  version = "0.17.1";
+  version = "0.21.0";
 
   src = fetchPypi {
     inherit pname version;
